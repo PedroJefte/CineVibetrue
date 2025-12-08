@@ -1,0 +1,90 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineVibe</title>
+    <link rel="website icon" type="png"
+    href="img/1763778740171 (1).png">
+    <link rel="stylesheet" href="./css/detalhes.css">
+</head>
+    <body>
+        <header>
+            <div>
+                <a href="./index.html">
+                    <span>CineVibe</span>
+                </a>
+            </div>
+            <div class="right">
+                <form action="/buscar" method="GET" class="search-box">
+                    <input type="search" name="q" placeholder="Pesquisar...">
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+        </header>
+        <br>
+        <br>
+        <br>
+        <main class="container">
+            <div class="img">
+                <h1>Rei Leão</h1>
+                <img src="./img/rei.webp" alt="">
+                <h2>Sinopse:</h2>
+                <p>Este desenho animado da Disney mostra as aventuras de um leão jovem de nome Simba, o herdeiro de seu pai, Mufasa. O tio malvado de Simba, Oscar, planeja roubar o trono de Mufasa atraindo pai e filho para uma emboscada. Simba consegue escapar e somente Mufasa morre. Com a ajuda de seus amigos,Timon e Pumba, ele reaparece como adulto para recuperar sua terra, que foi roubada por seu tio Oscar.</p>
+                <h3>gênero</h3>
+                <p>Infantil/Musical</p>
+                <p>Ano: 1994</p>
+            </div>
+        </main>
+        <aside>
+            <h1>elenco:</h1>
+            <div class="elenco-container">
+                <div class="ator">
+                    <img src="./img/rei leão/James Earl Jones.jpg" alt="">
+                    <p>James Earl Jones</p>
+                </div>
+                <div class="ator">
+                    <img src="./img/rei leão/Jeremy Irons.jpg" alt="">
+                    <p>Jeremy Irons</p>
+                </div>
+                <div class="ator">
+                    <img src="./img/rei leão/Jonathan Taylor Thomas.jpg" alt="">
+                    <p>Rupert Grint</p>
+                </div>
+                <div class="ator">
+                    <img src="./img/rei leão/Matthew Broderick.jpg" alt="">
+                    <p>Matthew Broderick</p>
+                </div>
+                <div class="ator">
+                    <img src="./img/rei leão/Nathan Lane.jpg" alt="">
+                    <p>Nathan Lane</p>
+                </div>
+                <div class="ator">
+                    <img src="./img/rei leão/Robert Guillaume.jpg" alt="">
+                    <p>Robert Guillaume</p>
+                </div>
+            </div>
+        </aside>>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form action="#" method="POST" class="comentarios">
+    <label for="comentario">Deixe seu comentário:</label><br>
+    <textarea id="comentario" name="comentario" rows="5" cols="40" placeholder="Escreva seu comentário aqui..."></textarea><br>
+
+    <div class="rating" id="avaliacao">
+        <span class="star" data-star="1">★</span>
+        <span class="star" data-star="2">★</span>
+        <span class="star" data-star="3">★</span>
+        <span class="star" data-star="4">★</span>
+        <span class="star" data-star="5">★</span>
+    </div>
+
+    <button type="submit">Enviar</button>
+</form>
+
+<div id="lista-comentarios"></div>
+<script src="./js/Estrela.js"></script>
+        <footer>© 2025 • CineVibe</footer>
+    </body>
+</html>
