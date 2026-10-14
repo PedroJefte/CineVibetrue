@@ -5,6 +5,7 @@ Catálogo de filmes e animes feito com **HTML, CSS e JavaScript puro**. Na pági
 🔗 **Acesse:** https://pedrojefte.github.io/CineVibetrue/
 
 <!-- Coloque aqui um print da página inicial: arraste a imagem para o editor do GitHub que ele gera o link -->
+<img width="1600" height="787" alt="WhatsApp Image 2026-10-14 at 09 41 20" src="https://github.com/user-attachments/assets/49f6ea5d-2aa0-4349-8f9b-cc094c47cf31" />
 
 ## ✨ Funcionalidades
 
